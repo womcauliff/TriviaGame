@@ -165,6 +165,12 @@ var triviaGame = {
 
 var intervalID;
 window.onload = function () {
-	triviaGame.setUp();
-	triviaGame.start();
+
+	$("#startbutton").on("click", function() {
+		triviaGame.setUp();
+		$("#gamearea").css('visibility', 'visible');
+		triviaGame.start();
+		$("#startbutton").remove();
+	})
+
 };
