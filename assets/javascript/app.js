@@ -146,17 +146,17 @@ var triviaGame = {
 			triviaGame.addQuestion(new QuizQuestion("Who is Buzz Lightyear's arch nemesis?", 
 							["Zurg", "Darth Vader", "Sid", "Rex"],
 							0,
-							"http://66.media.tumblr.com/9dbbb1718e57cde144da3c10096d5aa0/tumblr_nb3l3rhkfE1ts97afo1_500.gif"
+							"assets/images/zurg.gif"
 							));
 			triviaGame.addQuestion(new QuizQuestion("How many Pixar films won the Oscar for Best Animated Feature?",
 							["3", "8", "5", "11"],
 							1,
-							"https://media.giphy.com/media/7dQaPwR4hYiIw/giphy.gif"
+							"assets/images/insideout-cheering.gif"
 							));
 			triviaGame.addQuestion(new QuizQuestion("A total of five Pixar films are rated PG. Which of the following films is NOT rated PG?",
 							["Up", "The Incredibles", "Brave", "WALL-E"],
 							3,
-							"http://31.media.tumblr.com/3273f1e03ded8e37b97e2c88f72c6495/tumblr_mru8f9jmMf1rnml77o1_500.gif"
+							"assets/images/wall-e.gif"
 							));
 
 			triviaGame.reset();
