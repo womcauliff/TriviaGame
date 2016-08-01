@@ -141,7 +141,7 @@ var triviaGame = {
 			triviaGame.correct = 0;
 			triviaGame.incorrect = 0;
 			triviaGame.unanswered = 0;
-			triviaGame.defaultTime = 5;
+			triviaGame.defaultTime = 25;
 			triviaGame.cooldownTime = 5;
 			triviaGame.addQuestion(new QuizQuestion("Who is Buzz Lightyear's arch nemesis?", 
 							["Zurg", "Darth Vader", "Sid", "Rex"],
