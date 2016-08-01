@@ -118,7 +118,7 @@ var triviaGame = {
 					$("<div>").text("unanswered: " + triviaGame.unanswered)
 				);
 				$("#answers").append(
-					$("<div>").text("Play Again?").on("click", function() {
+					$("<div>").attr('id', 'playagain').text("Play Again?").on("click", function() {
 						triviaGame.setUp();
 						triviaGame.start();
 					})
@@ -141,7 +141,7 @@ var triviaGame = {
 			triviaGame.correct = 0;
 			triviaGame.incorrect = 0;
 			triviaGame.unanswered = 0;
-			triviaGame.defaultTime = 25;
+			triviaGame.defaultTime = 5;
 			triviaGame.cooldownTime = 5;
 			triviaGame.addQuestion(new QuizQuestion("Who is Buzz Lightyear's arch nemesis?", 
 							["Zurg", "Darth Vader", "Sid", "Rex"],
