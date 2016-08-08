@@ -190,7 +190,7 @@ window.onload = function() {
 	//Using QuizQuestion Constructor, add questions to TriviaGame Object
     triviaGame.addQuestion(new QuizQuestion("Who is Buzz Lightyear's arch nemesis?", ["Zurg", "Darth Vader", "Sid", "Rex"], 0, "assets/images/zurg.gif"));
     triviaGame.addQuestion(new QuizQuestion("How many Pixar films won the Oscar for Best Animated Feature?", ["3", "8", "5", "11"], 1, "assets/images/insideout-cheering.gif"));
-    triviaGame.addQuestion(new QuizQuestion("A total of five Pixar films are rated PG. Which of the following films is NOT rated PG?", ["Up", "The Incredibles", "Brave", "WALL-E"], 3, "assets/images/wall-e.gif"));
+    triviaGame.addQuestion(new QuizQuestion("A total of five Pixar films are rated PG. Which of the following films is rated G?", ["Up", "The Incredibles", "Brave", "WALL-E"], 3, "assets/images/wall-e.gif"));
 
     $("#startbutton").on("click", function() {
         triviaGame.setUp(25, 5);
